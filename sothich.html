@@ -7,36 +7,53 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 style="text-align: center;">SỞ THÍCH CỦA BẠN</h1>
+   
     <form>
-    <TABle border="1">
+    <TABle border="0">
+        <Tr>
+            <th colspan="2" style="text-align: center; color: azure; background-color: brown;">
+                <H3>SỞ THÍCH CỦA BẠN</h3>
+            </Th>
+        </Tr>
         <tr>
-            <Th>Họ và tên</Th>
-            <th colspan="3"><input type="text"></th>  
+            <Th style="color: blue; float: right;">Họ và tên</Th>
+            <td colspan="3"><input type="text" style="width:400px"></td>  
         </tr>
         <tr>
-            <Th>Email</Th>
-            <Th colspan="3"><input type="text"></Th>
+            <Th style="color: blue; float: right;">Email</Th>
+            <Td colspan="3"><input type="text" style="width:300px"></Td>
         </tr>
         <tr>
-            <th rowspan="4">Sở Thích</th>
+            <th rowspan="4" style="color: blue; float: right;">Sở Thích</th>
+            
             <Td>
-                <Tr>
-                    <Td> <input type="checkbox"> Thể thao</Td>
-                    <Td><input type="checkbox">Âm nhạc</Td>
-                    <td><input type="checkbox">Đọc Sách</td>
-                </Tr>
+                <Table>
+                   <Tr>
+                        <Td style="color:orange;"><input type="checkbox"> Thể thao</Td>
+                        <Td style="color:orange;"><input type="checkbox">Âm nhạc</Td>
+                        <td style="color:orange;"><input type="checkbox">Đọc Sách</td>
+                   </Tr>
+            
+        
+                   <Tr>
+                        <td style="color:orange;"><input type="checkbox">Lướt web</td>
+                        <Td style="color:orange;"><input type="checkbox">Chơi game</Td>
+                        <Td style="color:orange;"><input type="checkbox">Điện ảnh</Td>
+                    </Tr>
+                    <Tr>
+                        <Td style="color:orange;"><Input type="checkbox">Du lịch</Input></Td>
+                    </Tr>
+                     
+
+                 </Table>
             </Td>
         </tr>
-        <Tr>
-            <td><input type="checkbox">Lướt web</td>
-            <Td><input type="checkbox">Chơi game</Td>
-            <Td><input type="checkbox">Điện ảnh</Td>
-        </Tr>
-        <Tr>
-            <td><input type="checkbox">Du lịch</td>
-        </Tr>
-        
+       
+         <tr>
+           <Th></Th>
+            <td><Button>Gửi thông tin</Button>
+            <Button>Nhập lại</Button></Td>
+         </tr> 
     </TABle>
     </Form>
 </body>
